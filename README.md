@@ -1,10 +1,12 @@
 # Price & Stock Monitor — Python
 
+[![CI](https://github.com/Cobramass/price-monitor-python/actions/workflows/ci.yml/badge.svg)](https://github.com/Cobramass/price-monitor-python/actions/workflows/ci.yml)
+
 A production-shaped **web-scraping / data-feed** tool in Python: it scrapes a product
 catalogue concurrently, delivers clean structured data (JSON + CSV), and reports **what changed
 since last time** — price moves, stock flips, new and removed items.
 
-This is the Python counterpart to the Node [`price-monitor`](../price-monitor) demo — same
+This is the Python counterpart to the Node [`price-monitor`](https://github.com/Cobramass/price-monitor-node) demo — same
 engineering bar, idiomatic `asyncio` + `httpx` + BeautifulSoup. Run against
 [`books.toscrape.com`](https://books.toscrape.com), a sandbox built for scraping practice (no
 ToS/legal exposure); a real target is the URL pattern + three CSS selectors in `parse.py`.
