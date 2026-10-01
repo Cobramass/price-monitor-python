@@ -2,7 +2,7 @@
 
 [![CI](https://github.com/Cobramass/price-monitor-python/actions/workflows/ci.yml/badge.svg)](https://github.com/Cobramass/price-monitor-python/actions/workflows/ci.yml)
 
-A production-shaped **web-scraping / data-feed** tool in Python: it scrapes a product
+A **web-scraping / data-feed** tool in Python: it scrapes a product
 catalogue concurrently, delivers clean structured data (JSON + CSV), and reports **what changed
 since last time** — price moves, stock flips, new and removed items.
 
